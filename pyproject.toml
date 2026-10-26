@@ -1,0 +1,19 @@
+[project]
+name = "meet-scribe"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "groq>=1.7.0",
+    "numpy>=2.5.4",
+    "openai>=3.37.0",
+    "pydantic>=2.14.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.66.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

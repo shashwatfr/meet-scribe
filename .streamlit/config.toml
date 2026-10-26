@@ -1,0 +1,9 @@
+[server]
+# MB per upload. Streamlit keeps an upload in memory (UploadedFile is a BytesIO),
+# so this is also roughly the RAM one upload can use. Default is 200.
+# At about 58 MB per minute of video, 500 MB is about 9 minutes; extract the audio for longer.
+maxUploadSize = 500
+
+[browser]
+# Do not send Streamlit usage statistics.
+gatherUsageStats = false

@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Database (WAL mode adds -wal and -shm files next to the .db)
+*.db
+*.db-wal
+*.db-shm
+data/
+
+# Uploaded and temporary media
+uploads/
+*.mp3
+*.wav
+*.m4a
+*.mp4
+
+# Python
+__pycache__/
+.venv/
+.pytest_cache/
+
+# Streamlit secrets (API keys, hosted demo passwords)
+.streamlit/secrets.toml
+
+# personal notes, not part of the repo
+FLOW.md
+WALKTHROUGH.md
